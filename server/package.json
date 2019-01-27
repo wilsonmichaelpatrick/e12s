@@ -1,0 +1,17 @@
+{
+  "name": "TODO_SERVER_NAME",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "startInspect": "node --inspect app.js"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^2.3.4",
+    "firebase-admin": "^6.4.0",
+    "id3v1-parser": "^0.3.2",
+    "id3v2-parser": "^0.3.0",
+    "mpeg-frame-parser": "^0.3.1",
+    "uuid-base64": "^1.0.0"
+  }
+}

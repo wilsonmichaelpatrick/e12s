@@ -1,0 +1,116 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.App, .Footer, .header-button, .Scroller, hr {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.App {
+  height: 100%;
+}
+
+.Scroller {
+  max-width: 300px;
+}
+
+.main {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 128px;
+  text-align: center;
+}
+
+.hidden { display:none; }
+
+hr {
+  background-color: #cfcfcf; 
+  color: #cfcfcf; 
+  border-style:solid; 
+  border-color:#cfcfcf;
+}
+
+.header, .fakeheader, .Footer {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  z-index: 2;
+  text-align: center;
+}
+
+.orange, .song-button, .delete-button, .header-button, .header, .fakeheader {
+  color: #ff7f00;
+}
+
+.header, .fakeheader {
+  top: 0px;
+}
+
+.fakeheader {
+  visibility:hidden !important;
+  position: relative;
+  z-index: 0;
+}
+
+.Footer {
+  bottom: 0px;
+}
+
+.scrolleritem {
+  text-align: center;
+}
+
+hr {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.left {
+  text-align: left;
+  width: 100%;
+}
+
+.right {
+  text-align: right;
+}
+
+.song-button, .delete-button, .header-button {
+  background:none!important;
+  border:none; 
+  padding:0!important;
+  font: inherit;
+  font-weight: bold;
+  outline: none;
+}
+
+.action-button, .action-button-grey {
+  color: white;
+  background-color: #ff7f00;
+  font: inherit;
+  font-weight: bold;
+  border-radius: 8px;
+  outline: none;
+  padding:8px;
+  border:none; 
+}
+
+.action-button-grey {
+  background-color: #cfcfcf;
+}
+
+.delete-button {
+  font-size: 125%;
+}
+
+.normal-text {
+  text-align: left;
+}
+
+.header-button {
+  text-align: left;
+}
