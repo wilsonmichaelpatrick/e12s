@@ -1,18 +1,19 @@
 # e12s
 
-This is a mostly working prototype for a project called e12s, which is shorthand for "EPHEMERAL DEMOS".
+This is a mostly-working prototype for a project called e12s, which is shorthand for "EPHEMERAL DEMOS", which is not a great name, but coming up with a great or even good name that is not already taken is difficult nowadays.
 
 CAVEAT: This project is definitely under construction. Note that there is nothing substantial on the "master" branch; 
 you are looking at development code.
 
-The concept is to allow uploads of original music, which would reside on a website for 24 hours, then vanish.
-The time-limited aspect is an exercise in making a virtue out of necessity; why incur ongoing storage costs for 
+The idea is to allow uploads of original music, which would reside on a website for 24 hours, then vanish.
+The time-limited aspect makes a virtue out of necessity; why incur ongoing storage costs for 
 old data that is referenced less and less frequently?  Similarly, in order to avoid obligations managing
-personally identifiable information, the idea is to simply not have any; i.e., anyone can upload anything.  On
-the flip side of that, anyone can delete anything as well, with a one-flag-and-it's-gone moderation policy.
+personally identifiable information, why not simply avoid having any, and allow anyone to contribute 
+without maintaining accounts?  On the flip side of that, it might make sense to allow anyone to delete 
+anything as well, with a one-flag-and-it's-gone moderation policy.
 
-Having written the prototype, I'm not convinced the overhead of managing it is worthwhile.  As such it's not
-deployed anyplace, and the code here remains in a "working prototype" state, with TODOs and a handful of known
+Having written the prototype, the overhead of managing it seems like it might not be worthwhile.  As such it's not
+deployed anyplace. The code here remains in a "working prototype" state, with TODOs and a handful of known
 issues.
 
 ## Technical Details
